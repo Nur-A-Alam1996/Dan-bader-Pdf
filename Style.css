@@ -350,7 +350,7 @@ h3 {
 	width:auto;
 	padding: 10px;
 	background-color: black;
-	color: crimsonred;
+	color: crimson;
 	/*position: fixed;*/
 }
 
@@ -377,9 +377,14 @@ h3 {
           cursor: pointer;
         }
 
+
+.Ping{
+	padding-left: 20px;
+}
+
 .Ping img{
-	width: 30px;
-	height: 30px;
+	width: 2%;
+	height: 2%;
 }
 
 /*.uiu {padding: 72px 56px;
