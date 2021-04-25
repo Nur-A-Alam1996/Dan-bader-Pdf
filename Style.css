@@ -71,6 +71,7 @@ h3 {
 	box-shadow: inset 0 39px 56px -56px rgb(255 255 255 / 25%), inset 0 7px 21px 0 rgb(255 255 255 / 20%), inset 0 -82px 68px 0 rgb(96 68 144 / 18%), inset 0 -98px 100px -108px rgb(202 172 255 / 10%), inset 0 4px 18px 0 rgb(154 146 210 / 15%), inset 0 1px 40px 0 rgb(227 222 255 /15%);
 	}*/
 
+body{}
 .body{
 
 	padding: 25px;
@@ -352,6 +353,8 @@ h3 {
 	background-color: black;
 	color: crimson;
 	/*position: fixed;*/
+	display: flex;
+	flex-wrap: wrap;
 }
 
 
@@ -383,8 +386,10 @@ h3 {
 }
 
 .Ping img{
-	width: 2%;
-	height: 2%;
+	padding-left: 0px;
+	min-width: 0px;
+	width: 8%;
+	height: 25%;
 }
 
 /*.uiu {padding: 72px 56px;
